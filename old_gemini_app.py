@@ -52,7 +52,7 @@ if submit:
     if uploaded_file is not None:
         text = input_pdf_text(uploaded_file)
 
-        # Print the extracted text for verification
+        # Print extracted text for verification
         st.subheader("Extracted Text from Your Resume:")
         st.text(text)
 
