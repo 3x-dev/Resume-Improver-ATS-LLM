@@ -16,7 +16,7 @@ def get_openai_response(input_text, job_description):
         messages=[
             {
                 "role": "system",
-                "content": "Act like a skilled or highly experienced ATS (Application Tracking System) with a deep understanding of the tech field, software engineering, data science, data analysis, big data engineering, machine learning, and deep learning. Evaluate resumes concisely and accurately based on the job description (JD). Provide a brief and easy to read summary including the percentage match with the JD, key missing skills or keywords in short bullet points, and a short profile summary in short bullet points."
+                "content": "Act like a skilled or highly experienced ATS (Application Tracking System) with a deep understanding of the tech field, software engineering, data science, data analysis, big data engineering, machine learning, and deep learning. Evaluate resumes concisely and accurately based on the job description (JD). Provide a brief and easy to read summary including the percentage match with the JD, key missing skills or keywords in short bullet points, and a short profile summary in short bullet points. Determine the percentage match with the JD critically based on the missing skills and keywords and user profile matching."
             },
             {
                 "role": "user",
