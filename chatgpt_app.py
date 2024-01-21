@@ -36,8 +36,8 @@ def input_pdf_text(uploaded_file):
     return text
 
 # Streamlit app
-st.title("Smart ATS")
-st.text("Improve Your Resume! Made by Aryan Singhal")
+st.title("Smart ATS - Resume Improver")
+st.text("Improve your resume for tech/machine learning jobs! \n Made by Aryan Singhal")
 jd = st.text_area("Paste the Job Description")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the pdf")
 
