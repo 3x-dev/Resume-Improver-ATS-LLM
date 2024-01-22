@@ -1,7 +1,7 @@
 [theme]
 base="dark"
 primaryColor="#f63366"
-backgroundColor="#121212"  # Dark gray, lighter than #0e1117
-secondaryBackgroundColor="#333333"  # Medium gray, lighter than #262730
+backgroundColor="hsl(228, 15%, 40%)"  # Lighter gray
+secondaryBackgroundColor="hsl(228, 15%, 35%)"  # Slightly darker gray than backgroundColor
 textColor="#ffffff"
 font="sans serif"
