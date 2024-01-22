@@ -17,7 +17,7 @@ def get_openai_response(api_key, input_text, job_description):
                     "content": f"Resume: {input_text}\nJob Description: {job_description}"
                 }
             ],
-            max_tokens=300
+            max_tokens=200
         )
         return response.choices[0].message['content']
     except openai.error.InvalidRequestError as e:
