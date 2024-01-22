@@ -38,7 +38,7 @@ st.text("Improve your resume for tech/machine learning jobs!\nIf JD percentage m
 # User enters their OpenAI API key
 user_api_key = st.text_input("Enter your OpenAI API key")
 
-jd = st.text_area("Paste the Job Description")
+jd = st.text_area("Paste the Job Description (JD)")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the pdf")
 
 submit = st.button("Submit")
