@@ -32,7 +32,7 @@ def input_pdf_text(uploaded_file):
     return text
 
 # Streamlit app
-st.title("ChatGPT Driven ATS - Resume Improver")
+st.title("ChatGPT Driven Resume Improver")
 st.text("Improve your resume for tech/machine learning jobs!\nIf JD percentage match is above 85%, consider applying.\nMade by Aryan Singhal - https://www.aisinghal.com/")
 
 # User enters their OpenAI API key
